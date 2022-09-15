@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+    gap: 30px;
+    width: 80;
+    border-bottom: #dddddd 1px solid;
+}
+
+.imagem{
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A404E;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.navegar{
+    display: flex;
+    gap: 32px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
+}
+
+button{
+    background-color: #8E2424;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+button:hover{
+    background-color: #9E3434;
+    cursor: pointer;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 96px 0;
+}
+
+.sobre{
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.titulo{
+    color: #101828;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.paragrafo{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.metricas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding: 0px 112px 96px 112px;
+}
+
+h2{
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+h3{
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 0px;
+}
+
+p{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px;
+}
+
+.metrica{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 280px;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px 0px 0px;
+}
+
+.p1vagas{
+    color:#8E2424;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgba(142, 36, 36, 0.05);
+    height: 28px;
+    width: 125px;
+    border-radius: 16px;
+    padding: 4px ;
+}
+
+.hvagas{
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.p2vagas{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 64px 0;
+}
+
+.vagas-abertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.caixa{
+    
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+    margin: 12px;
+    height: 136px;
+    width: 768px;
+}
+
+.titulo-vaga{
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+.informacoes{
+    color: #667085;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 32px;
+}
+.area{
+    font-size: 20px;
+    font-weight: 500;
+    color: #101828;
+    align-self: stretch;
+    margin: 32px 360px;
+    margin-top: 64px;
+}
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+.veja{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 600;
+}
+.op{
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    text-align: center;
+    margin: 32px 0px;
+}
+.julia{
+    color: #101828;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.dev{
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+footer{
+    padding: 96px 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-rodape{
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+}
+
+.paragrafo-rodape{
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+    ;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding: 40px 0 32px;
+}
+
+.input-email{
+    width: 360px;
+    height: 48px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+}
+
+.input-email::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.input-cadastrar{
+    width: 116px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    background-color: #8E2424;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.input-cadastrar:hover{
+    background-color: #9E3434;
+    cursor: pointer;
+}
+
+.span-rodape{
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+}
+
+.span-rodape-eu{
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+    margin-top: 8px;
+}
